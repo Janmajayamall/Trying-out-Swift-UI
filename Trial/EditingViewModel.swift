@@ -23,8 +23,7 @@ class EditingViewModel: NSObject, ObservableObject {
         }
     }
     
-    var locationManager = CLLocationManager()
-    
+    var locationManager = CLLocationManager()    
     var currentLocation: CLLocation?
     var isPostPublic: Bool?
     var finalImage: UIImage?

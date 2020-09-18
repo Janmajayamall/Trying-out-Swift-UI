@@ -29,7 +29,6 @@ struct CustomMultiLineTextField : UIViewRepresentable {
         }
         
         func textViewDidChangeSelection(_ textView: UITextView) {
-            
             DispatchQueue.main.async {                
                 self.text = textView.text
                 self.textViewHeight = textView.contentSize.height

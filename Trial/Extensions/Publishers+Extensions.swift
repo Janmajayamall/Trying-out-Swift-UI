@@ -35,8 +35,8 @@ extension Publishers {
             .default
             .publisher(for: .didAuthStatusChange)
             .map { (notification) -> User? in
-                if let auth = notification.object as? User {
-                    return auth
+                if let user = notification.object as? User {
+                    return user
                 }
                 return nil
             }

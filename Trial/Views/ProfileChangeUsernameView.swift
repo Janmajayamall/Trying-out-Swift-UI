@@ -55,7 +55,7 @@ struct ProfileChangeUsernameView: View {
                     Image(systemName: "xmark").font(Font.system(size: 15, weight: .bold))
                         .foregroundColor(Color.primaryColor)
                         .onTapGesture {
-                            self.screenManagement.activeProfileScreenOverlay = .none
+//                            self.screenManagement.activeProfileScreenOverlay = .none
                         }
                         .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 0))
                     Spacer()

@@ -14,14 +14,6 @@ enum SwipeScreenState {
     case down
 }
 
-struct rest: View {
-    var body: some View {
-        Text("dawdadadawdawd")
-    }
-    
-}
-
-
 struct SwipeUpSingleView: View {
     
     @State var showMenu: Bool = false
